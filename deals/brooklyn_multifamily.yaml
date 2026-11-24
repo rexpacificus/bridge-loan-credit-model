@@ -1,0 +1,39 @@
+# ILLUSTRATIVE DEAL. Numbers are realistic but hypothetical, not a real listing.
+name: Bed-Stuy 24-Unit Value-Add
+market: Brooklyn, NY
+property_type: Multifamily (walk-up)
+units: 24
+notes: >
+  Sponsor buys a 24-unit walk-up with below-market rents, renovates units on
+  turnover, and pushes rents to market. Assumes units are free-market. If any
+  are rent-stabilized, post-2019 HSTPA rules sharply limit the rent upside and
+  this business plan does not work.
+
+purchase_price: 7_200_000
+capex_budget: 1_200_000
+closing_costs: 150_000
+in_place_noi: 378_000        # 5.25% going-in cap
+stabilized_noi: 520_000
+months_to_stabilize: 15
+
+initial_funding: 5_400_000   # 75% of purchase price
+future_funding: 1_000_000    # funds ~83% of capex
+term_months: 24
+extension_months: 12
+spread: 4.00
+rate_cap_strike: 5.00
+interest_reserve: 150_000
+sponsor_liquidity: 250_000
+
+exit_cap_rate: 0.0575
+foreclosure_months: 30       # NY judicial foreclosure is slow
+liquidation_cost: 0.10
+
+noi_attainment_mean: 0.95
+noi_attainment_sd: 0.08
+delay_mean_months: 4
+
+rates:
+  as_of: "2026-11"
+  sofr: 3.95
+  treasury_10y: 4.95

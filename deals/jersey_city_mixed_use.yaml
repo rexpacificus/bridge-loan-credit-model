@@ -1,0 +1,39 @@
+# ILLUSTRATIVE DEAL. Numbers are realistic but hypothetical, not a real listing.
+name: Journal Square Mixed-Use Lease-Up
+market: Jersey City, NJ
+property_type: Mixed-use (40 apartments over ground-floor retail)
+units: 40
+notes: >
+  Newly renovated building, 55% leased on the residential side, ground-floor
+  retail fully vacant. Sponsor needs to lease residential and sign two retail
+  tenants. Aggressive leverage: ~77% loan-to-cost and the building does not cover interest today.
+
+purchase_price: 14_500_000
+capex_budget: 2_500_000
+closing_costs: 300_000
+in_place_noi: 580_000        # 4.0% going-in cap, mostly empty
+stabilized_noi: 1_050_000
+months_to_stabilize: 18
+
+initial_funding: 11_400_000  # 78.6% of purchase price
+future_funding: 2_000_000    # TI/LC for retail + remaining residential work
+term_months: 24
+extension_months: 12
+spread: 4.50
+rate_cap_strike: 5.00
+interest_reserve: 600_000
+sponsor_liquidity: 400_000
+
+exit_cap_rate: 0.0600
+exit_cap_sd: 0.0060          # retail component adds cap-rate uncertainty
+foreclosure_months: 30       # NJ judicial foreclosure
+liquidation_cost: 0.12
+
+noi_attainment_mean: 0.92    # retail lease-up is the swing factor
+noi_attainment_sd: 0.10
+delay_mean_months: 6
+
+rates:
+  as_of: "2026-11"
+  sofr: 3.95
+  treasury_10y: 4.95
